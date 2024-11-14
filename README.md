@@ -88,8 +88,7 @@ Create a pull request.
 License
 TodayPlan is open-source software licensed under the MIT License.
 
-markdown
-Copy code
+
 
 ### Key Sections:
 
@@ -99,4 +98,3 @@ Copy code
 - **Contributing**: Encourages others to contribute to the project, outlining the steps to do so.
 - **License**: Includes licensing information for open-source use.
 
-Feel free to replace the placeholder in the **Screenshots** section with actual images or delete them if not needed. Let me know if you need any more adjustments!
