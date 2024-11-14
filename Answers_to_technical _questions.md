@@ -34,7 +34,7 @@ const handleTaskCompletion = (taskId) => {
 
 
 ```
-3. How would you track down a performance issue in production? Have you ever had to do this?
+##3. How would you track down a performance issue in production? Have you ever had to do this?
 To track down performance issues in production, I would follow these steps:
 
 Use Browser Developer Tools:
@@ -54,7 +54,7 @@ Monitor Metrics:
 Integrate performance monitoring tools like Google Lighthouse, Sentry, or New Relic to track real-time performance metrics in production.
 Have I done this before? Yes, I have dealt with performance issues in production environments before. A common issue was slow page rendering due to excessive state updates. Using React.memo and useMemo hooks helped reduce unnecessary re-renders and improved performance.
 
-4. If you had more time, what additional features or improvements would you consider adding to the task management application?
+##4. If you had more time, what additional features or improvements would you consider adding to the task management application?
 If I had more time, here are a few additional features and improvements I would consider:
 
 User Authentication and Authorization:
