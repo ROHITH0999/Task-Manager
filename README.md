@@ -90,11 +90,5 @@ TodayPlan is open-source software licensed under the MIT License.
 
 
 
-### Key Sections:
 
-- **Overview**: Briefly describes the app's functionality and key features.
-- **Installation**: Provides clear steps for setting up the project locally.
-- **Usage**: Explains how to use the app and its features.
-- **Contributing**: Encourages others to contribute to the project, outlining the steps to do so.
-- **License**: Includes licensing information for open-source use.
 
