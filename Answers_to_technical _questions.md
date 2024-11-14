@@ -33,6 +33,7 @@ const handleTaskCompletion = (taskId) => {
 };
 
 
+```
 3. How would you track down a performance issue in production? Have you ever had to do this?
 To track down performance issues in production, I would follow these steps:
 
