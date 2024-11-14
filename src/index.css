@@ -1,0 +1,107 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Softer Neon Colors */
+.text-neon-green {
+    color: #39ff91; /* A softer neon green */
+}
+.text-neon-pink {
+    color: #ff80b3; /* Softer, lighter pink */
+}
+.text-neon-blue {
+    color: #00d1ff; /* Slightly softer neon blue */
+}
+.text-neon-yellow {
+    color: #ffec42; /* Softer yellow */
+}
+.text-neon-purple {
+    color: #9b59b6; /* Softer purple */
+}
+.text-neon-orange {
+    color: #ff7f32; /* Slightly less intense neon orange */
+}
+.text-neon-cyan {
+    color: #00e0e0; /* Softer neon cyan */
+}
+
+/* Softer Neon Box Shadow */
+.neon-box-shadow {
+    box-shadow: 0 0 8px rgba(0, 255, 150, 0.4), 0 0 15px rgba(0, 255, 150, 0.3), 0 0 25px rgba(0, 255, 150, 0.2);
+}
+
+/* Softer Glow Animation */
+.glow-animation {
+    animation: glow 1.8s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 6px rgba(255, 255, 255, 0.2), 0 0 12px rgba(255, 255, 255, 0.1);
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.4);
+    }
+}
+
+/* Fade-in animation with slight delay for a smoother entrance */
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button Styles with better contrast */
+.btn-neon {
+    background-color: #2e2e2e; /* Darker background for contrast */
+    color: #00d1ff; /* Softer neon blue */
+    border: 2px solid #00d1ff;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 3px rgba(0, 191, 255, 0.4), 0 0 6px rgba(0, 191, 255, 0.3);
+}
+
+.btn-neon:hover {
+    background-color: #00d1ff;
+    color: #2e2e2e; /* Text switches to darker shade on hover */
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5), 0 0 20px rgba(0, 191, 255, 0.4);
+    border-color: #00d1ff;
+}
+
+/* Centering Content */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Center text content */
+}
+
+/* Background Animation (Optional) */
+body {
+    background: linear-gradient(120deg, #0d0d0d, #1a1a1a);
+    background-size: 400% 400%;
+    animation: backgroundGradient 12s ease infinite;
+}
+
+@keyframes backgroundGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
