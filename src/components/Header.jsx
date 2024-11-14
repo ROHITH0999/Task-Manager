@@ -12,7 +12,7 @@ const Header = () => {
                     onClick={() => navigate('/archives')}
                     className="flex items-center text-gray-400 font-semibold hover:text-neon-yellow transition transform hover:scale-105 duration-200">
                     <span className="inline-flex items-center w-6 h-6 text-xs bg-gray-800 rounded mr-2 transform hover:scale-105 duration-200">
-                        <img src='/public/back-svgrepo-com.svg' alt='back' className='h-5 w-5' />
+                        <img src='/back-svgrepo-com.svg' alt='back' className='h-5 w-5' />
                     </span>
                     <span className="text-neon-green glow-text">Archive</span>
                 </button>
@@ -26,7 +26,7 @@ const Header = () => {
                     className="flex items-center text-gray-400 font-semibold hover:text-neon-yellow transition transform hover:scale-105 duration-200">
                     <span className="text-neon-pink glow-text">This Week</span>
                     <span className="inline-flex items-center w-6 h-6 bg-gray-800 rounded ml-2 transform hover:scale-105 duration-200">
-                        <img src='/public/right-arrow-svgrepo-com.svg' alt='Right' className='h-5 w-5' />
+                        <img src='/right-arrow-svgrepo-com.svg' alt='Right' className='h-5 w-5' />
                     </span>
                 </button>
             </div>
